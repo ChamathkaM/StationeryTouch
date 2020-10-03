@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".activity.ProductAddActivity"
+    tools:visibility="visible">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Add Product"
+        android:textAlignment="center"
+        android:textColor="#0E0E0E"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        app:srcCompat="@drawable/ic_baseline_add_shopping_cart_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/product"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_baseline_shopping_cart_24"
+        android:drawablePadding="10dp"
+        android:hint="Product"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/price"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_baseline_apps_24"
+        android:drawablePadding="10dp"
+        android:hint="Price"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/qty"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_baseline_apps_24"
+        android:drawablePadding="10dp"
+        android:hint="Quantity"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/description"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_baseline_text"
+        android:drawablePadding="10dp"
+        android:hint="Description"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+    <EditText
+        android:id="@+id/supplierName"
+        android:background="@drawable/edit_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_baseline_text"
+        android:drawablePadding="10dp"
+        android:hint="Supplier Name"
+        android:inputType="textPersonName|textCapWords"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="95dp"
+        android:background="@drawable/button"
+        android:text="PUBLISH ITEM"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

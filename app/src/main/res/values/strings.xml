@@ -51,4 +51,7 @@
     <string name="cancel">Cancel</string>
     <string name="save">Save</string>
     <string name="changeImg">Change Image</string>
+
+    <string name="action_delete">Delete</string>
+
 </resources>
