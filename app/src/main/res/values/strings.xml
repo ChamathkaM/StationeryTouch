@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Online Stationery Store</string>
+    <string name="add_new_product">Add New Product</string>
+    <string name="productDesc">Product Description</string>
+    <string name="product_name">Product Name</string>
+    <string name="productPrice">price</string>
+    <string name="Search">search</string>
+    <string name="name">Product Name</string>
+    <string name="total_price">Total Price =</string>
+    <string name="next">Next</string>
+    <string name="qty">Quantity</string>
+    <string name="login">Login</string>
+    <string name="eMail">Email Address</string>
+    <string name="password">Password</string>
+    <string name="dontHaveAcc">Don\'t have an account?</string>
+    <string name="rememberMe">Remember me</string>
+    <string name="loginHere">Login Here</string>
+    <string name="forgetPasssword">Forgot Password?</string>
+    <string name="addtocart">ADD TO CART</string>
+    <string name="confirm">Confirm</string>
+    <string name="feedback">Provide Feedback</string>
+    <string name="skip">Skip for now</string>
+    <string name="invalid_Name">Please Enter a valid name</string>
+    <string name="invalid_Email">please Enter a valid Email</string>
+    <string name="submit">Submit</string>
+    <string name="email_hint">Enter your Email</string>
+    <string name="name_hint">Enter your Name</string>
+</resources>

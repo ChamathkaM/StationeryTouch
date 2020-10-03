@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategory">
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:text="@string/add_new_product"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        android:textColor="#046056"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+       >
+
+        <ImageView
+            android:layout_marginLeft="12dp"
+            android:id="@+id/penhodler"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/penholder"
+            />
+
+        <ImageView
+            android:id="@+id/file"
+            android:layout_marginLeft="12dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/file"
+            />
+
+        <ImageView
+            android:id="@+id/stapler"
+            android:layout_marginLeft="12dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/staper"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:id="@+id/linear2_category_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/linear1_category_layout"
+    android:orientation="horizontal"
+    android:layout_centerHorizontal="true"
+    android:gravity="center"
+    android:layout_marginTop="45dp"
+    >
+
+    <ImageView
+        android:layout_marginLeft="12dp"
+        android:id="@+id/highligher"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/highlighter"
+        />
+
+    <ImageView
+        android:id="@+id/notebook"
+        android:layout_marginLeft="12dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/notebook"
+        />
+
+    <ImageView
+        android:id="@+id/lettercover"
+        android:layout_marginLeft="12dp"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/lettercover"
+        />
+
+</LinearLayout>
+</RelativeLayout>
