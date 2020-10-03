@@ -25,4 +25,30 @@
     <string name="submit">Submit</string>
     <string name="email_hint">Enter your Email</string>
     <string name="name_hint">Enter your Name</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="cart">Cart</string>
+    <string name="wishList">WishList</string>
+    <string name="orders">Orders</string>
+    <string name="payMethod">Payment Method</string>
+    <string name="purchaseHis">Purchase History</string>
+    <string name="logOut">Log Out</string>
+    <string name="title_activity_product_display">ProductDisplayActivity</string>
+
+
+    <string name="settings">Settings</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="changeImg">Change Image</string>
 </resources>

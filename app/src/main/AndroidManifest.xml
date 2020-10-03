@@ -9,12 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".SellerActivity" />
+        <activity android:name=".AdminViewActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".FeedbackActivity" />
         <activity android:name=".ConfirmFinalOrder" />
         <activity android:name=".CartActivity" />
         <activity android:name=".SearchProductActivity" />
         <activity android:name=".ProductDetailsActivity" />
-        <activity android:name=".HomeActivity" />
         <activity android:name=".AdminAddNewProductActivity" />
         <activity android:name=".AdminCategory" />
     </application>

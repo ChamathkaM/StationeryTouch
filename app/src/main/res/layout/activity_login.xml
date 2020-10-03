@@ -14,14 +14,15 @@
         android:id="@+id/textView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="70dp"
         android:text="@string/loginHere"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#0E0E0E"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/uPhone"
@@ -46,8 +47,19 @@
         android:drawableStart="@drawable/lock_24"
         android:ems="10"
         android:hint="@string/password"
-        android:inputType="textPersonName"
+        android:inputType="textPassword"
         android:drawableLeft="@drawable/lock_24" />
+    <CheckBox
+        android:id="@+id/login_remeber_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Material.Drawable.CheckBox"
+        android:text="@string/rememberMe"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_vertical"
+        android:textSize="15dp"
+        android:textStyle="bold"/>
+
 
     <Button
         android:id="@+id/loginBtn"
@@ -80,6 +92,7 @@
         android:gravity="center"
         android:text="@string/dontHaveAcc"
         android:textColor="#003326"
+        android:onClick="nav_Signup"
         android:textSize="15dp" />
 
 </LinearLayout>
